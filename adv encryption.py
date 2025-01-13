@@ -40,7 +40,7 @@ def decrypt_file(input_file, password):
 
 
 # Example usage
-file_to_encrypt = 'example.txt'
+file_to_encrypt = 'noodles.txt'
 user_password = 'strongpassword'
 encrypt_file(file_to_encrypt, user_password)
 decrypt_file(f"{file_to_encrypt}.enc", user_password)
